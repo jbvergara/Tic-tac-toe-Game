@@ -149,6 +149,10 @@ def main():
             accept_input(2)
             disp_check_key()
 
+        if ctr == 9:
+            print("No player won.")
+            play_again()
+
         ctr += 1
 
 
